@@ -1,0 +1,74 @@
+{
+    "name": "InpuSystemControls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "25161343-9b5b-4d0b-ac4c-ba44ed69f1bf",
+            "actions": [
+                {
+                    "name": "OnOff",
+                    "type": "Button",
+                    "id": "0827c7a6-a8ac-4dcb-8e10-6021a9289086",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Alta",
+                    "type": "Button",
+                    "id": "6ddba5ea-245e-4946-8f9f-ebb01d2d1116",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Baja",
+                    "type": "Button",
+                    "id": "0600ed65-de8a-458f-8a79-b744df027d8e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8937eff4-0a60-41b7-bf5e-9b4af9285bff",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OnOff",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e95e8ae2-de1d-4264-96ad-b0c1e9a57b0f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Alta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c96532a-b375-4813-8698-d452b978443c",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Baja",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
